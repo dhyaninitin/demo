@@ -1,0 +1,20 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteCond %{REQUEST_URI} ^/agreement/(.*)?$
+RewriteRule ([^/]+)/?$  /PaymentGateway/index.php?status=$1 [L,QSA]
+
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ([^/]+)/?$ route.php?param=$1 [L,QSA]
+
+
+
+
+
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} OPTIONS
+RewriteRule .* / [R=200,L]
+

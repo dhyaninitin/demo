@@ -1,0 +1,248 @@
+.login-box, .register-box {
+    width: 500px !important;
+    margin: 6% auto !important;
+}
+input.form-control.int {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    height: 44px;
+}
+.click_act{
+    padding-top: 15px;
+    font-size: 17px;
+    padding-bottom: 45px;
+}
+.cli_act_spn{
+    font-size: 18px;
+    padding-left: 4px;
+}
+.pts16{
+    font-size: 16px !important;
+}
+.login_button{
+    /* color: #ffffff; */
+    /* background-color: #20B2AA; */
+    /* border-color: #fff; */
+    height: 44px ;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100% !important;
+}
+.brdcum{
+    background-color: #f5f5f5 !important;
+}
+.whitee{
+    background-color: #FFFFFF !important;
+}
+label.fontsizunst {
+    font-weight: unset;
+}
+.select2-container--default .select2-selection--single {
+    background-color: #fff !important;
+    border: 1px solid #d2d2d2 !important;
+    border-radius: 0px !important;
+    height: 33px !important;
+}
+.deletep{
+    font-size: 24px;
+    text-align: center;
+    color: red;
+    text-transform: capitalize;
+}
+label.tax {
+    margin: 4px;
+    margin-top: 32px;
+    font-weight: unset;
+
+}
+
+.productsearch{
+    margin-left: 54px ;
+    margin-right: 40px ;
+    padding-bottom: 0px ;
+    padding-top: 25px  ;
+}
+.productsrcbtn{
+    margin-top: 26px;
+}
+.cheqpymt{
+    margin-left: 20px;
+    margin-right: 90px;
+    padding-top: 45px;
+
+}
+.hrline{
+    margin-top: 31px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 2px;
+    border-top: 3px solid #EEEEEE !important;
+    
+}
+.persentg{
+    font-size: 20px;
+    margin-top: 3px;
+    font-weight: 600;
+}
+.pricestyle{
+    float: right;
+    font-size: 17px;
+    font-weight: 500;
+}
+th.titleptice {
+    margin-right: 10px;
+    font-weight: 600;
+}
+.pricestatic{
+    width: 150px !important;
+}
+
+.priceshow.row {
+    margin-top: 27px;
+    margin-left: 29px;
+    margin-right: 19px;
+    margin-bottom: 20px;
+}
+.logintext{
+    margin-left: 41px;
+    margin-right: 42px;
+}
+.loginbutton{
+        margin-left: 80px !important;
+    margin-right: 96px !important;
+}
+
+ .unitsessss{
+position: absolute !important;
+top: 25px;
+/*width: auto;*/
+right: 2px;
+    width: 32%;
+}
+
+.genunittss{
+    position: absolute !important;
+    top: 0px;
+    /* width: auto; */
+    right: 7px;
+    height: 33px !important;
+    width: 32% !important;
+}
+.product_name{
+    position: relative;
+}
+.pro_input{
+    width: 70%;
+}
+
+.loadercss{
+    height: 25px;
+    width: 25px;
+}
+.loaderdiv{
+    padding-top: 27px;
+}
+.pricetableth{
+     width: 184px;
+    position: relative;
+}
+
+.pricetabletg1{
+    width: 132px;
+    position: relative;
+}
+.tableth{
+    font-weight: 600 !important;
+    text-align: center!important;
+    font-size:13px !important;
+}
+.tabletd{
+    text-align: center !important;
+    font-size:13px !important;
+
+}
+
+body{
+    color: #4E5E6A !important;
+}
+
+.textcolor{
+    color: #4E5E6A !important;
+    font-weight: 600;
+}
+
+.normaltext{
+    color: #4E5E6A !important;
+}
+
+.sidebar {
+    background-color: #4E5E6A  !important;
+    color: #fff !important;
+}
+
+.fafaandtext{
+    color: white !important;
+}
+
+.fixed .main-header {
+    background-color: #fff !important;
+}
+
+.main-header .logo {
+   
+    background-color: #F5F5F5 !important;
+}
+.box-header>.fa, .box-header>.glyphicon, .box-header>.ion, .box-header .box-title {
+    color: #4E5E6A !important;
+}
+
+.small-box .icon {
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+    position: absolute;
+    top: 9px !important;
+    right: 31px !important;
+    z-index: 0;
+    font-size: 34px !important;
+    color: #fff !important;
+}
+
+.small-box h3 {
+    font-size: 30px !important;
+}
+
+.btn-primary{
+    background-color: #1DB198 !important;
+    border-color: #fff !important;
+}
+
+/*.btn-primary:hover {
+  background-color: yellow !important;
+}*/
+
+.user-panel>.image>img {
+    width: 100%;
+    max-width: 107px !important;
+    height: 90px !important;
+    margin-left: 47px !important;
+}
+.btn{
+    border-radius: 5px !important;
+}
+.btn:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
